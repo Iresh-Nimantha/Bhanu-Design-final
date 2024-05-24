@@ -53,23 +53,19 @@ const Projects = () => {
 
   return (
     <div id="Service" className="mt-8 mb-8 pb-8 bg-gray-200 ">
-      <Typography
-        variant="h2"
-        color="blue-gray"
-        className="text-center mb-6 text-6xl [text-shadow:5px_5px_9px_black]"
-      >
-        Our Services
-      </Typography>
-      <Typography className="text-center pb-6  text-2xl m-auto w-1/2 h-1/2">
-        <p>
-          "Our services epitomize quality. With a keen eye for detail and a
-          dedication to excellence, we deliver exceptional results that surpass
-          expectations. Trust us to elevate your project with unmatched quality
-          and professionalism."
-        </p>
-      </Typography>
+      <div className="bg-white shadow-lg rounded-lg flex flex-col md:flex-row w-full ">
+        <div className=" flex flex-col w-full p-4 md:p-8 text-center">
+          <h1 className="text-5xl font-bold mb-4">Our Services</h1>
+          <p className="text-gray-700 mb-8 text-lg ">
+            "Our services epitomize quality. With a keen eye for detail and a
+            dedication to excellence, we deliver exceptional results that
+            surpass expectations. Trust us to elevate your project with
+            unmatched quality and professionalism."
+          </p>
+        </div>
+      </div>
       <div
-        className="grid grid-cols md:grid-cols-3 justify-center gap-4 m-auto  
+        className="grid grid-cols md:grid-cols-3 justify-center gap-4 m-auto pt-8
 "
       >
         {services.map((service, index) => (

@@ -10,11 +10,11 @@ import {
 
 const Media = () => {
   return (
-    <div id="Contact" className="m-auto py-12">
+    <div id="ContactUs" className="m-auto py-12">
       <div className="text-center text-6xl py-4">
         <h1 className="relative font-bold">Contact Us</h1>
       </div>
-      <div className=" flex justify-around items-center bg-gray-100 p-6 rounded-lg shadow-2xl mx-12 ">
+      <div className=" flex justify-around items-center bg-gray-100 p-6 rounded-lg shadow-2xl mx-12 gap-8 ">
         <a
           color="white"
           href="tel:1234567890"

@@ -65,7 +65,7 @@ export function NavListMenu() {
         className="p-1 font-serif text-2xl hover:scale-105"
       >
         <a
-          href="#Contact"
+          href="#ContactUs"
           className="flex items-center text-gray-600 focus:text-black"
         >
           Contact
