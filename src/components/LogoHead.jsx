@@ -5,7 +5,7 @@ import "../../src/index.css";
 
 const LogoHead = () => {
   return (
-    <div className="flex flex-col shadow-3xl border-2  border-gray-300 rounded-3xl md:w-1/2 w-3/5 h-2/5 items-center justify-center m-auto py-16 top-16 mt-20 mb-16 bg-white">
+    <div className="flex flex-col shadow-3xl border-2  border-gray-300 rounded-3xl md:w-[50em] h-2/5 items-center justify-center m-auto py-16 top-16 mt-20 mb-16 bg-white">
       <div className="bg-blur-sm"></div>
       <img
         src={logoImg}
