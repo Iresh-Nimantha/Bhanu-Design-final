@@ -5,16 +5,20 @@ import {
   CardBody,
   Typography,
 } from "@material-tailwind/react";
-import PofImg from "../assets/pof.png";
-import Tution from "../assets/a.jpg";
-import AAA from "../assets/b.jpg";
+
+import Tution from "../assets/servicesImges/a.jpg";
+import AAA from "../assets/servicesImges/b.jpg";
+import bbb from "../assets/servicesImges/c.jpg";
+import ccc from "../assets/servicesImges/d.jpg";
+import ddd from "../assets/servicesImges/e.jpg";
+import eee from "../assets/servicesImges/f.jpg";
 const Projects = () => {
   const services = [
     {
       title: "Web Design",
       description:
         "Transform your online presence with our stunning web design services. Our expert designers create visually appealing and user-friendly websites that engage and captivate your audience.",
-      image: PofImg,
+      image: eee,
     },
     {
       title: "Logo Design",
@@ -32,22 +36,19 @@ const Projects = () => {
       title: "Print Design",
       description:
         "Bring your ideas to life with high-quality print design. Whether it's brochures, business cards, or posters, our designs leave a lasting impact and convey your message clearly.",
-      image:
-        "https://images.unsplash.com/photo-1532635223-96b5d3bbefeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+      image: bbb,
     },
     {
       title: "Social Media Graphics",
       description:
         "Enhance your social media presence with eye-catching graphics. Our custom designs help you engage your followers and promote your brand across all social media platforms.",
-      image:
-        "https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+      image: ccc,
     },
     {
       title: "Marketing Collateral",
       description:
         "Boost your marketing efforts with professionally designed collateral. From flyers to banners, we create materials that support your campaigns and drive results.",
-      image:
-        "https://images.unsplash.com/photo-1555893748-0aef2ac3757d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+      image: ddd,
     },
   ];
 
@@ -56,7 +57,7 @@ const Projects = () => {
       <div className="bg-white shadow-lg rounded-lg flex flex-col md:flex-row w-full ">
         <div className=" flex flex-col w-full p-4 md:p-8 text-center">
           <h1 className="text-5xl font-bold mb-4">Our Services</h1>
-          <p className="text-gray-700 mb-8 text-lg ">
+          <p className="text-gray-700 mb-8 text-lg relative">
             "Our services epitomize quality. With a keen eye for detail and a
             dedication to excellence, we deliver exceptional results that
             surpass expectations. Trust us to elevate your project with
@@ -65,7 +66,7 @@ const Projects = () => {
         </div>
       </div>
       <div
-        className="grid grid-cols md:grid-cols-3 justify-center gap-4 m-auto pt-8
+        className=" grid grid-cols md:grid-cols-3 justify-center gap-4 m-auto pt-8
 "
       >
         {services.map((service, index) => (

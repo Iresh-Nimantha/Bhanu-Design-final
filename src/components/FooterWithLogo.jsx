@@ -15,7 +15,7 @@ const currentYear = new Date().getFullYear();
 
 export function FooterWithLogo() {
   return (
-    <footer className=" w-full pt-12 bg-gray-300">
+    <footer className=" w-full mt-16 bg-gray-300">
       <div className="mx-auto w-full max-w-7xl px-8">
         <div className="mx-auto grid w-full grid-cols-2 gap-8 py-12 md:text-center lg:text-center text-center ">
           {SITEMAP.map(({ title, links }, key) => (
@@ -31,10 +31,7 @@ export function FooterWithLogo() {
                     color="blue-gray"
                     className="font-normal text-lg"
                   >
-                    <a
-                      href="#"
-                      className="inline-block py-1 pr-2 transition-transform hover:scale-105"
-                    >
+                    <a className="inline-block py-1 pr-2 transition-transform hover:scale-105">
                       {link}
                     </a>
                   </Typography>

@@ -12,16 +12,20 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div>
-      <NavListMenu />
-      <SpeedDialWithTextOutside />
-      <AboutUs />
+    <div className=" ">
+      <div className=" relative z-10">
+        <NavListMenu />
+      </div>
+      <div className=" ">
+        <AboutUs />
 
-      <Projects />
-      <Media />
+        <Projects />
+        <SpeedDialWithTextOutside />
+        <Media />
 
-      <CustomerReacts />
-      <FooterWithLogo />
+        <CustomerReacts />
+        <FooterWithLogo />
+      </div>
       {/*  
       
       
