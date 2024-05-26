@@ -40,27 +40,27 @@ const AboutUs = () => {
           <div className="w-full md:w-1/2 bg-red-500 text-white flex flex-col items-center justify-center p-4 md:p-8">
             <div className="mb-4 md:mb-8 text-center">
               <div className="text-4xl md:text-7xl font-bold text-white mt-2">
-                <CountUp end={100} duration={5} />+
+                <CountUp end={2} duration={7} />+
               </div>
-              <p className="text-xl md:text-3xl">Years in Business</p>
+              <p className="text-xl md:text-3xl">YEARS OF WORK EXPERIENCE</p>
             </div>
             <div className="mb-4 md:mb-8 text-center">
               <div className="text-4xl md:text-7xl font-bold text-white mt-2">
-                <CountUp end={100} duration={5} />+
+                <CountUp end={500} duration={7} />+
               </div>
-              <p className="text-xl md:text-3xl">Corporate Clients</p>
+              <p className="text-xl md:text-3xl">CORPORATE CLIENTS</p>
             </div>
             <div className="mb-4 md:mb-8 text-center">
               <div className="text-4xl md:text-7xl font-bold text-white mt-2">
-                <CountUp end={100} duration={5} />+
+                <CountUp end={20} duration={7} />+
               </div>
-              <p className="text-xl md:text-3xl">Services</p>
+              <p className="text-xl md:text-3xl">EMPLOYEES</p>
             </div>
             <div className="text-center">
               <div className="text-4xl md:text-7xl font-bold text-white mt-2">
-                <CountUp end={100} duration={5} />+
+                <CountUp end={600} duration={7} />+
               </div>
-              <p className="text-xl md:text-3xl">Projects</p>
+              <p className="text-xl md:text-3xl">PROJECTS</p>
             </div>
           </div>
         </div>

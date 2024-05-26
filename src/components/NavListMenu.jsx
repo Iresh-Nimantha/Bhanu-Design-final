@@ -18,17 +18,14 @@ export function NavListMenu() {
   }, []);
 
   const navList = (
-    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6  ">
+    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6  focus:text-white">
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-serif text-2xl text-shadow:0px-0px-5px-black hover:scale-105 "
+        className="p-1 font-serif text-xl md:text-2xl hover:scale-105 "
       >
-        <a
-          href="#"
-          className="flex items-center text-gray-600 focus:text-black "
-        >
+        <a href="#" className="flex items-center text-gray-600  ">
           Home
         </a>
       </Typography>
@@ -36,7 +33,17 @@ export function NavListMenu() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-serif text-2xl duration-5000 hover:scale-105"
+        className="p-1 font-serif text-xl md:text-2xl hover:scale-105 "
+      >
+        <a href="#AboutUs" className="flex items-center text-gray-600 ">
+          About Us
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-serif text-xl md:text-2xl duration-5000 hover:scale-105"
       >
         <a
           href="#Service"
@@ -45,30 +52,31 @@ export function NavListMenu() {
           Service
         </a>
       </Typography>
+
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-serif text-2xl hover:scale-105"
-      >
-        <a
-          href="#AboutUs"
-          className="flex items-center text-gray-600 focus:text-black"
-        >
-          About Us
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-serif text-2xl hover:scale-105"
+        className="p-1 font-serif text-xl md:text-2xl hover:scale-105"
       >
         <a
           href="#ContactUs"
           className="flex items-center text-gray-600 focus:text-black"
         >
           Contact
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-serif text-xl md:text-2xl hover:scale-105"
+      >
+        <a
+          href="#Vacancies"
+          className="flex items-center text-gray-600 focus:text-black"
+        >
+          Vacancies
         </a>
       </Typography>
     </ul>

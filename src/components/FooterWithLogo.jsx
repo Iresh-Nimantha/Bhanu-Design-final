@@ -1,5 +1,6 @@
 import { Typography } from "@material-tailwind/react";
-
+import WhImg from "../assets/WhatsApp-QR.jpg";
+import InstarImg from "../assets/Instar-Qr.jpg";
 const SITEMAP = [
   {
     title: "Company",
@@ -23,6 +24,7 @@ export function FooterWithLogo() {
               <Typography variant="larg" color="blue-gray  ">
                 {title}
               </Typography>
+
               <ul className="space-y-1 ">
                 {links.map((link, key) => (
                   <Typography
@@ -40,15 +42,33 @@ export function FooterWithLogo() {
             </div>
           ))}
         </div>
-        <div className="flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
+        <div className="flex w-full flex-col-2 items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
           <Typography
             variant="small"
             className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
           >
-            &copy; {currentYear}{" "}
-            <a href="https://material-tailwind.com/">Material Tailwind</a>. All
-            Rights Reserved.
+            &copy; {currentYear}
+            <a href="https://material-tailwind.com/" className=" text-center">
+              Material Tailwind
+            </a>
+            . All Rights Reserved.
           </Typography>
+          <div className="flex gap-12 mr-28">
+            <Typography>
+              <img
+                src={WhImg}
+                alt=""
+                className=" w-20  h-20 rounded-md md:block hidden"
+              />
+            </Typography>
+            <Typography>
+              <img
+                src={InstarImg}
+                alt=""
+                className=" w-20  h-20 rounded-md md:block hidden"
+              />
+            </Typography>
+          </div>
         </div>
       </div>
     </footer>

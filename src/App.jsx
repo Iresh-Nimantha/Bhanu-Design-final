@@ -6,7 +6,9 @@ import Background from "./components/Background";
 import FooterWithLogo from "./components/FooterWithLogo";
 import AboutUs from "./components/AboutUs";
 import Media from "./components/Media";
+import Vacancies from "./components/Vacancies ";
 import { CustomerReacts } from "./components/CustomerReacts";
+import Vediome from "./components/Vediome";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,12 +20,13 @@ function App() {
       </div>
       <div className=" ">
         <AboutUs />
-
+        <Vediome />
         <Projects />
         <SpeedDialWithTextOutside />
         <Media />
 
         <CustomerReacts />
+        <Vacancies />
         <FooterWithLogo />
       </div>
       {/*  

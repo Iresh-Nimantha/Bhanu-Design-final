@@ -1,9 +1,10 @@
-import aaa from "../assets/servicesImges/b.jpg";
-import bbb from "../assets/servicesImges/c.jpg";
-import ccc from "../assets/servicesImges/d.jpg";
-import ddd from "../assets/servicesImges/e.jpg";
-import eee from "../assets/servicesImges/f.jpg";
-import fff from "../assets/servicesImges/a.jpg";
+import React from "react";
+import aaa from "../assets/reactions/a.jpg";
+import bbb from "../assets/reactions/b.jpg";
+import ccc from "../assets/reactions/c.jpg";
+import ddd from "../assets/reactions/d.jpg";
+import eee from "../assets/reactions/e.jpg";
+import fff from "../assets/reactions/f.jpg";
 
 export function CustomerReacts() {
   return (

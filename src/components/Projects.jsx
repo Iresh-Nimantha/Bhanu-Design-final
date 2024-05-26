@@ -6,49 +6,92 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-import Tution from "../assets/servicesImges/a.jpg";
-import AAA from "../assets/servicesImges/b.jpg";
-import bbb from "../assets/servicesImges/c.jpg";
-import ccc from "../assets/servicesImges/d.jpg";
-import ddd from "../assets/servicesImges/e.jpg";
-import eee from "../assets/servicesImges/f.jpg";
+import hand_bill from "../assets/servicesImges/handBill.jpg";
+import Banner_design from "../assets/servicesImges/BannerDesign.jpg";
+import business_card from "../assets/servicesImges/businessCard.jpg";
+import video_edition from "../assets/servicesImges/videoEdition.jpg";
+import Social_media_post from "../assets/servicesImges/SocialMediaPost.jpg";
+import Type_setting from "../assets/servicesImges/TypeSetting.jpg";
+import websitedevelopment from "../assets/servicesImges/websitedevelopment.jpg";
+import cvDesign from "../assets/servicesImges/cvDesign.jpg";
+import businessCard from "../assets/servicesImges/businessCard.jpg";
+import marketing from "../assets/servicesImges/marketing.jpg";
+import Assigment from "../assets/servicesImges/Assigment.jpg";
+import coverPages from "../assets/servicesImges/coverPages.jpg";
+
 const Projects = () => {
   const services = [
     {
+      title: "Banner Design",
+      description:
+        "We design eye-catching banners that effectively communicate your message and grab attention, perfect for events, promotions, and online campaigns, ensuring your brand stands out.",
+      image: Banner_design,
+    },
+    {
+      title: "Social Media Post Design",
+      description:
+        "Creating visually compelling social media posts that engage your audience, boost interaction, and enhance your brand's online presence with attractive and memorable designs tailored to each platform.",
+      image: Social_media_post,
+    },
+    {
+      title: "Cover Page Design",
+      description:
+        "Designing professional and creative cover pages for books, reports, and presentations that captivate readers, reflect the content's essence, and make a lasting first impression.",
+      image: coverPages,
+    },
+    {
+      title: "Handbill Design",
+      description:
+        "Crafting striking handbills for events, promotions, and advertising that convey your message clearly and attractively, designed to capture interest and generate buzz.",
+      image: hand_bill,
+    },
+    {
+      title: "All type of Cards Design",
+      description:
+        "Designing a variety of cards, including business cards, greeting cards, and invitations, with unique and personalized touches that leave a lasting impression.",
+      image: business_card,
+    },
+    {
+      title: "Type Setting",
+      description:
+        "Providing expert typesetting services to ensure your text is beautifully formatted, easy to read, and visually appealing, enhancing the overall quality of your documents.",
+      image: Type_setting,
+    },
+    {
+      title: "Video Editing",
+      description:
+        "Offering professional video editing services to create polished, engaging videos that tell your story effectively, with seamless transitions, sound enhancements, and visual effects.",
+      image: video_edition,
+    },
+    {
+      title: "Assignments Creating",
+      description:
+        "Developing well-designed and structured assignments tailored to meet educational goals, ensuring clarity, engagement, and a comprehensive approach to assessing student learning and skills.",
+      image: Assigment,
+    },
+    {
+      title: "Social Media Marketing",
+      description:
+        "Implementing strategic social media marketing campaigns to enhance brand visibility, engage your target audience, and drive growth. Utilizing content creation, targeted ads, and analytics to maximize reach and impact.",
+      image: marketing,
+    },
+    {
+      title: "CV Creating",
+      description:
+        "Implementing strategic social media marketing campaigns to enhance brand visibility, engage your target audience, and drive growth. Utilizing content creation, targeted ads, and analytics to maximize reach and impact.",
+      image: cvDesign,
+    },
+    {
       title: "Web Design",
       description:
-        "Transform your online presence with our stunning web design services. Our expert designers create visually appealing and user-friendly websites that engage and captivate your audience.",
-      image: eee,
+        "Implementing strategic social media marketing campaigns to enhance brand visibility, engage your target audience, and drive growth. Utilizing content creation, targeted ads, and analytics to maximize reach and impact.",
+      image: websitedevelopment,
     },
     {
-      title: "Logo Design",
+      title: "Business Card",
       description:
-        "Make a lasting impression with a unique and memorable logo. Our creative team designs logos that perfectly reflect your brand identity and resonate with your target market.",
-      image: Tution,
-    },
-    {
-      title: "Branding",
-      description:
-        "Elevate your brand with our comprehensive branding services. From brand strategy to visual identity, we ensure your brand stands out and communicates your values effectively.",
-      image: AAA,
-    },
-    {
-      title: "Print Design",
-      description:
-        "Bring your ideas to life with high-quality print design. Whether it's brochures, business cards, or posters, our designs leave a lasting impact and convey your message clearly.",
-      image: bbb,
-    },
-    {
-      title: "Social Media Graphics",
-      description:
-        "Enhance your social media presence with eye-catching graphics. Our custom designs help you engage your followers and promote your brand across all social media platforms.",
-      image: ccc,
-    },
-    {
-      title: "Marketing Collateral",
-      description:
-        "Boost your marketing efforts with professionally designed collateral. From flyers to banners, we create materials that support your campaigns and drive results.",
-      image: ddd,
+        "Implementing strategic social media marketing campaigns to enhance brand visibility, engage your target audience, and drive growth. Utilizing content creation, targeted ads, and analytics to maximize reach and impact.",
+      image: businessCard,
     },
   ];
 
@@ -66,7 +109,7 @@ const Projects = () => {
         </div>
       </div>
       <div
-        className=" grid grid-cols md:grid-cols-3 justify-center gap-4 m-auto pt-8
+        className=" relative grid grid-cols md:grid-cols-3 justify-center items-center gap-4 m-auto pt-8
 "
       >
         {services.map((service, index) => (

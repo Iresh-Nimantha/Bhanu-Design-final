@@ -7,7 +7,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import { EnvelopeIcon, EnvelopeOpenIcon } from "@heroicons/react/24/outline";
-import { FaFacebookF, FaTiktok, FaWhatsapp } from "react-icons/fa";
+import { FaFacebookF, FaTiktok, FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 export function SpeedDialWithTextOutside() {
   return (
@@ -36,17 +36,33 @@ export function SpeedDialWithTextOutside() {
                 </Typography>
               </SpeedDialAction>
             </a>
-            <SpeedDialAction className="h-16 w-16">
-              <FaTiktok className="h-5 w-5" style={{ color: "#010101" }} />
-              <Typography color="blue-gray" className="text-xs font-normal">
-                Tiktok
-              </Typography>
-            </SpeedDialAction>
-            <a href="https://chat.whatsapp.com/L0" target="_blank">
+            <a
+              href="https://www.tiktok.com/@banu.design3?is_from_webapp=1&sender_device=pc"
+              target="_blank"
+            >
+              <SpeedDialAction className="h-16 w-16">
+                <FaTiktok className="h-5 w-5" style={{ color: "#010101" }} />
+                <Typography color="blue-gray" className="text-xs font-normal">
+                  Tiktok
+                </Typography>
+              </SpeedDialAction>
+            </a>
+            <a href="https://wa.me/message/U7DTQJQ6AGDGA1" target="_blank">
               <SpeedDialAction className="h-16 w-16">
                 <FaWhatsapp className="h-5 w-5" style={{ color: "#25D366" }} />
                 <Typography color="blue-gray" className="text-xs font-normal">
                   Whatsapp
+                </Typography>
+              </SpeedDialAction>
+            </a>
+            <a
+              href="https://www.instagram.com/rusith_banuka?utm_source=qr&igsh=aXlheGp3bjhiamVo"
+              target="_blank"
+            >
+              <SpeedDialAction className="h-16 w-16">
+                <FaInstagram className="h-5 w-5" style={{ color: "#833AB4" }} />
+                <Typography color="blue-gray" className="text-xs font-normal">
+                  Instagram
                 </Typography>
               </SpeedDialAction>
             </a>
