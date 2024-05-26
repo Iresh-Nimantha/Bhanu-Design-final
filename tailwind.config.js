@@ -8,6 +8,11 @@ module.exports = withMT({
       animation: {
         "neon-border": "neon 2s linear infinite",
       },
+
+      fontFamily: {
+        bauhs: ["BAUHS93", "sans-serif"],
+        bauhaus: ["Bauhaus93", "sans-serif"],
+      },
       keyframes: {
         neon: {
           "0%, 100%": {

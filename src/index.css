@@ -8,3 +8,19 @@
 *::-webkit-scrollbar {
   display: none;
 }
+
+/* src/index.css */
+@font-face {
+  font-family: "BAUHS93";
+  src: url("/src/assets/bauhaus-93-font/Bauhaus\ 93\ Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bauhaus93";
+  src: url("/src/assets/bauhaus-93-font/BAUHS93.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
