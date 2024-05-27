@@ -1,8 +1,8 @@
 import { useState } from "react";
 import NavListMenu from "./components/NavListMenu";
-import Projects from "./components/Projects";
+import Projects from "./components/Services/Projects";
 import SpeedDialWithTextOutside from "./components/SpeedDialWithTextOutside";
-import Background from "./components/Background";
+
 import FooterWithLogo from "./components/FooterWithLogo";
 import AboutUs from "./components/AboutUs";
 import Media from "./components/Media";
