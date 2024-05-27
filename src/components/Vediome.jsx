@@ -1,5 +1,5 @@
 import React from "react";
-
+import Vedio from "../assets/vedio/vedio.mp4";
 const Vediome = () => {
   return (
     <div className="flex justify-center items-center bg-gray-100">
@@ -13,10 +13,10 @@ const Vediome = () => {
           </h1>
         </div>
 
-        <iframe
-          src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F61554859791220%2Fvideos%2F2693538337495726%2F&show_text=false&width=476&t=0"
-          className="w-full h-[25em] md:h-[100vh] object-cover"
-        ></iframe>
+        <video className="h-[80vh] w-full rounded-lg" controls>
+          <source src={Vedio} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
   );
